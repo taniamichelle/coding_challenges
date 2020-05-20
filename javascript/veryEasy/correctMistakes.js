@@ -10,8 +10,10 @@ squared(9) ➞ 81
 squared(100) ➞ 10000
 */
 
-function squaed(b) {
-  return $a * $a;
+//GIVEN: function squaed(b) {return $a * $a;}
+//ANSWER:
+function squared(a) {
+  return a * a;
 }
 
 /*
