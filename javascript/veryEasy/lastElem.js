@@ -10,7 +10,9 @@ getLastItem(["cat", "dog", "duck"]) ➞ "duck"
 getLastItem([true, false, true]) ➞ true
 */
 
-function getLastItem(arr) {}
+function getLastItem(arr) {
+  return arr[arr.length - 1];
+}
 
 /*
 TESTS:
