@@ -12,7 +12,9 @@ findIndex(["a", "g", "y", "d"], "d") ➞ 3
 findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") ➞ 0
 */
 
-function findIndex(arr, str) {}
+function findIndex(arr, str) {
+  return arr.indexOf(str);
+}
 
 /*
 TESTS:
