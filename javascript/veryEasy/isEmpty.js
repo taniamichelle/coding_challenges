@@ -12,7 +12,13 @@ Notes
 A string containing only whitespaces " " does not count as empty.
 */
 
-function isEmpty(s) {}
+function isEmpty(s) {
+  if (s.indexOf(" ") < 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 /*
 TESTS:
