@@ -12,7 +12,9 @@ Notes
 The input is always a name (as string).
 */
 
-const helloName = name => 
+const helloName = (name) => {
+  return `Hello ${name}!`;
+};
 
 /*
 TESTS:
