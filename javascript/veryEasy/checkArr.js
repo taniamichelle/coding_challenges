@@ -12,7 +12,9 @@ check([5, 5, 5, 6], 5) ➞ true
 check([], 5) ➞ false
 */
 
-function check(arr, el) {}
+function check(arr, el) {
+  return arr.includes(el);
+}
 
 /*
 TESTS:
