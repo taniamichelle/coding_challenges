@@ -12,7 +12,9 @@ Notes
 All test inputs will be positive integers.
 */
 
-function calculateExponent(num, exp) {}
+function calculateExponent(num, exp) {
+  return Math.pow(num, exp);
+}
 
 /*
 TESTS:
