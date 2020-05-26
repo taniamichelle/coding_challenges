@@ -10,7 +10,12 @@ moodToday("sad") ➞ "Today, I am feeling sad"
 moodToday() ➞ "Today, I am feeling neutral"
 */
 
-function moodToday(mood) {}
+// GIVEN:
+// function moodToday(mood) {}
+
+function moodToday(mood = "neutral") {
+  return `Today, I am feeling ${mood}`;
+}
 
 /*
 TESTS:
