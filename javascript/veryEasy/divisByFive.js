@@ -10,7 +10,13 @@ divisibleByFive(-55) ➞ true
 divisibleByFive(37) ➞ false
 */
 
-function divisibleByFive(n) {}
+function divisibleByFive(n) {
+  if (n % 5 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 /*
 TESTS:
