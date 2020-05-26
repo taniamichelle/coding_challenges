@@ -10,7 +10,7 @@ reverse([9, 9, 2, 3, 4]) ➞ [4, 3, 2, 9, 9]
 reverse([]) ➞ []
 */
 
-function reverse(arr) {}
+function reverse(arr) { return arr.reverse();}
 
 /*
 TESTS:
