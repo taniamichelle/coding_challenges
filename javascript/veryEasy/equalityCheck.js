@@ -23,7 +23,13 @@ checkEquality(1,  1) ➞ true
 // A number and a number: their type and value are equal
 */
 
-function checkEquality(a, b) {}
+function checkEquality(a, b) {
+  if (a === b) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 /*
 TESTS:
