@@ -21,11 +21,12 @@ function getContainer(product) {
   switch (product) {
     case "Bread":
       container = "bag";
+      break;
     case "Beer":
     case "Milk":
       container = "bottle";
       break;
-    case "Cerials":
+    case "Cereals":
       container = "box";
       break;
     case "Eggs":
@@ -33,6 +34,7 @@ function getContainer(product) {
       break;
     case "Candy":
       container = "plastic";
+      break;
     default:
       container = null;
   }
