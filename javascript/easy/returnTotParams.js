@@ -15,7 +15,12 @@ Notes:
 How can you express the input parameter so it takes a variable number of arguments?
 */
 
-function numberArgs(/* fill-in */) {}
+// GIVEN:
+// function numberArgs(/* fill-in */) {}
+
+function numberArgs(...params) {
+  return arguments.length;
+}
 
 /*
 TESTS:
