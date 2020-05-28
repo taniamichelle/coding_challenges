@@ -12,7 +12,9 @@ Notes
 If the item is not present, return -1.
 */
 
-function search(arr, item) {}
+function search(arr, item) {
+  return arr.indexOf(item);
+}
 
 /*
 TESTS:
