@@ -12,7 +12,13 @@ isLastCharacterN("Bert") ➞ false
 isLastCharacterN("Dean") ➞ true
 */
 
-function isLastCharacterN(word) {}
+function isLastCharacterN(word) {
+  if (word.charAt(word.length - 1) === "n") {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 /* 
 TESTS:
