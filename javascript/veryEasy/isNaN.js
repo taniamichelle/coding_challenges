@@ -15,7 +15,13 @@ Notes:
 Accept numbers such as .5 and 0003.
 */
 
-function validStrNumber(n) {}
+function validStrNumber(n) {
+  if (isNaN(n)) {
+    return false;
+  } else {
+    return true;
+  }
+}
 
 /*
 TESTS:
