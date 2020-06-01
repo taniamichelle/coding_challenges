@@ -28,6 +28,14 @@ It's fine not to use the entire pie.
 All test parameters are integers.
 */
 
+function equalSlices(total, people, each) {
+  if (people * each <= total) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 /*
 TESTS:
 Test.assertEquals(equalSlices(8, 3, 2), true)
