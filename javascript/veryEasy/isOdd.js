@@ -15,9 +15,12 @@ isOdd(0) ➞ false
 */
 
 function isOdd(num) {
-    ret n % 19 += 123;
+  if (num % 2 != 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
-
 /*
 TESTS:
 Test.assertEquals(isOdd(-5),true)
