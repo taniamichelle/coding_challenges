@@ -13,7 +13,13 @@ Notes:
 Expect num to always be >= 1.
 */
 
-function longBurp(num) {}
+function longBurp(num) {
+  let str1 = "Bu";
+  let str2 = "r";
+  let repeatStr2 = str2.repeat(num);
+  let str3 = "p";
+  return `${str1}` + `${repeatStr2}` + `${str3}`;
+}
 
 /*
 TESTS:
