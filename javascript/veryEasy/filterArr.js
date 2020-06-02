@@ -10,7 +10,10 @@ filterArray(["A", 0, "Edabit", 1729, "Python", "1729"]) ➞ [0, 1729]
 filterArray(["Nothing", "here"]) ➞ []
 */
 
-function filterArray(arr) {}
+function filterArray(arr) {
+  let nums = arr.filter((num) => Number.isInteger(num));
+  return nums;
+}
 
 /*
 TESTS:
