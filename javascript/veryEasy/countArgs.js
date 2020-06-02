@@ -14,6 +14,10 @@ numArgs(true, false) ➞ 2
 numArgs({}) ➞ 1
 */
 
+function numArgs() {
+  return arguments.length;
+}
+
 /*
 TESTS:
 Test.assertEquals(numArgs(), 0)
