@@ -13,7 +13,13 @@ Remember to return either true or false.
 All arrays contain two positive numbers.
 */
 
-function checkSquareAndCube(arr) {}
+function checkSquareAndCube(arr) {
+  if (Math.sqrt(arr[0]) === Math.cbrt(arr[1])) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 /*
 TESTS:
