@@ -8,6 +8,9 @@ filterArray([1, 2, 3, "a", "b", 4]) ➞ [1, 2, 3, 4]
 filterArray(["A", 0, "Edabit", 1729, "Python", "1729"]) ➞ [0, 1729]
 
 filterArray(["Nothing", "here"]) ➞ []
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
 */
 
 function filterArray(arr) {
