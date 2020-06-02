@@ -9,6 +9,7 @@ Sometimes an object will be missing properties we are expecting. We can avoid un
 */
 
 //const str = `({ one, two } = { two : 2 }).toString()`
+const str = `({ one=1, two } = { two : 2 }).toString()`;
 
 /*
 TESTS:
