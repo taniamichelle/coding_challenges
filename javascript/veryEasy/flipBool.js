@@ -12,7 +12,13 @@ flipBool(1) ➞ 0
 flipBool(0) ➞ 1
 */
 
-function flipBool(b) {}
+function flipBool(b) {
+  if (b == 1) {
+    return 0;
+  } else {
+    return 1;
+  }
+}
 
 /*
 TESTS:
