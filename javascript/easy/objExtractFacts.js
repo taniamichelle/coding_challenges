@@ -21,7 +21,9 @@ cityFacts({
 }) ➞ "Tokyo has a population of 13,929,286 and is situated in Asia"
 */
 
-function cityFacts(city) {}
+function cityFacts(city) {
+  return `${city.name} has a population of ${city.population} and is situated in ${city.continent}`;
+}
 
 /*
 TESTS:
