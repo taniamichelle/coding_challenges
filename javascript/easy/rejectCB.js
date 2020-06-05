@@ -22,7 +22,8 @@ let promise = new Promise((resolve) => {
     }
     if (animal !== "dog") {
       /* need something here, you might also need to pass
-			something else besides the resolve callback */
+            something else besides the resolve callback */
+        reject('It\s not a dog!')
     }
   }, 1000);
 });
