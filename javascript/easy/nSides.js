@@ -60,7 +60,7 @@ function nSidedShape(n) {
   }
 }
 
-// // alternative
+// // hashtable alternative
 // function nSidedShape(n) {
 //     const shapeDict = {
 //         1: 'circle',
