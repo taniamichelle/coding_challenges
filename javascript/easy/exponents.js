@@ -15,7 +15,13 @@ Notes
 The ^ operator refers to exponentiation operation, not the bitwise XOR operation.
 */
 
-function kToK(n, k) {}
+function kToK(n, k) {
+  if (k ** k == n) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 /*
 TESTS:
