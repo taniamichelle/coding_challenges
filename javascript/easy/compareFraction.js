@@ -12,7 +12,13 @@ Notes
 Fractions must be strictly greater than 1 (see example #3).
 */
 
-function greaterThanOne(frac) {}
+function greaterThanOne(frac) {
+  if (eval(frac) > 1) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 /*
 TESTS:
