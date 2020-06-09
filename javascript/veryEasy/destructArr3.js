@@ -13,6 +13,9 @@ But you can also skip over items in the array being destructured.
 
 const arr = ["eyes", "nose", "lips", "ears"];
 var [
+  ,
+  ,
+  lips = (arr[2] = arr),
   /* Create variable lips here and assign it to arr[2] */
 ] = arr;
 
