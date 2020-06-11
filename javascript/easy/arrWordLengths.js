@@ -13,7 +13,35 @@ No test case will contain punctuation.
 Arrays can be of various lengths.
 */
 
-function wordLengths(arr) {}
+function wordLengths(arr) {
+  return arr.map((i) => i.length);
+}
+
+/*ALTERNATE:
+const wordLengths = arr => arr.map(word => word.length);
+
+function wordLengths(array){
+	let arrayLength = []
+	for (i=0; i<array.length;i++){
+		arrayLength.push(array[i].length)
+	}
+	return arrayLength
+}
+
+function wordLengths(arr) {
+	const lengthsArr = arr.map(function(a) {
+			return a.length})
+
+	return lengthsArr
+}
+
+function wordLengths(array){
+ let res = [];
+ for(i=0;i<array.length;i++)
+	 res[i]=array[i].length;
+ return res;
+}
+*/
 
 /*
 TESTS:
