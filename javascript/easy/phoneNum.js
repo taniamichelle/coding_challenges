@@ -15,6 +15,30 @@ function createPhoneNumber(numbers) {
 }
 
 /*
+ALTERNATE SOLUTIONS:
+A)
+const createPhoneNumber = arr =>
+    '(xxx) xxx-xxxx'.replace(/x/g, v => arr.shift());
+    
+
+B)
+function createPhoneNumber(numbers) {
+	let number = "(xxx) xxx-xxxx";
+	for(let i = 0; i < numbers.length; i++) {
+		number = number.replace('x', numbers[i]);
+	}
+	return number;
+}
+
+C)
+const createPhoneNumber = numbers => numbers.join("").replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
+
+D)
+function createPhoneNumber(numbers) {
+	return `(${numbers.slice(0,3).join("")}) ${numbers.slice(3,6).join("")}-${numbers.slice(6).join("")}`
+*/
+
+/*
 TESTS:
 Test.assertEquals(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]), "(123) 456-7890")
 Test.assertEquals(createPhoneNumber([1, 4, 7, 6, 1, 2, 5, 7, 9, 5]), "(147) 612-5795")
