@@ -13,7 +13,9 @@ ctoa("\") ➞ 92
 
 */
 
-function ctoa(c) {}
+function ctoa(c) {
+  return c.codePointAt(0);
+}
 
 /*
 TESTS:
