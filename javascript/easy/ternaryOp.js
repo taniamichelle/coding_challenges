@@ -27,7 +27,9 @@ yeah_nope(true) ➞ "yeah"
 yeah_nope(false) ➞ "nope"
 */
 
-function yeah_nope(bool) {}
+function yeah_nope(bool) {
+  return bool ? "yeah" : "nope";
+}
 
 /*
 TESTS:
