@@ -12,7 +12,9 @@ Notes
 Treat a space as its own character (i.e. leave three spaces between words).
 */
 
-function spaceMeOut(str) {}
+function spaceMeOut(str) {
+  return str.split("").join(" ");
+}
 
 /*
 TESTS:
