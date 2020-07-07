@@ -27,7 +27,7 @@ function countTrue(arr) {
 ALTERNATE SOLUTIONS:
 -FILTER:
 1)
-const count_true = r => r.filter(Boolean).length
+const countTrue = r => r.filter(Boolean).length
 
 2)
 function countTrue(arr) {
@@ -38,8 +38,8 @@ function countTrue(arr) {
 const countTrue = (arr) => arr.filter(Boolean).length;
 
 4)
-function count_true(lst){
-	return lst.filter(function(value){
+function countTrue(arr){
+	return arr.filter(function(value){
     return value === true;
 	}).length
 }
