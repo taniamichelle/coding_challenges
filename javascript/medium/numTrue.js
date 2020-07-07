@@ -24,6 +24,42 @@ function countTrue(arr) {
 }
 
 /*
+ALTERNATE SOLUTIONS:
+-FILTER:
+1)
+const count_true = r => r.filter(Boolean).length
+
+2)
+function countTrue(arr) {
+	return arr.filter(x=>x==true).length
+}
+
+3)
+const countTrue = (arr) => arr.filter(Boolean).length;
+
+4)
+function count_true(lst){
+	return lst.filter(function(value){
+    return value === true;
+	}).length
+}
+
+5)
+function countTrue(arr) {
+	let m = arr.filter(t => {
+		return t === true;
+	})
+	return m.length;
+}
+
+-MAP:
+1)
+function countTrue(arr) {
+	let total = 0;
+	arr.map(x => x === true ? total += 1 : x);
+	return total;
+}
+/*
 TESTS:
 Test.assertEquals(countTrue([true, false, false, true, false]), 2)
 Test.assertEquals(countTrue([false, false, false, false]), 0)
